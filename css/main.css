@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap');
+
+a{
+    text-decoration: none !important;
+    
+}
+.img-logo{
+    width: 10%;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+main{
+  margin-top: 10%;
+  min-height: 70vh;
+  margin-bottom: 1%;
+}
+.eventError{
+  color: red;
+}
+.eventOk{
+  color: rgba(11, 177, 14, 0.878);
+}
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: #fff;
+  z-index: 9999; /* asegurarse de que el navbar tenga un z-index mayor que el resto del contenido */
+}
+
+.nav-menu li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none ;
+    color: #333;
+}
+
+.nav-menu i {
+    font-size: 20px;
+}
+
+.footer-fixed {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  body {
+    background: linear-gradient(to bottom, #f5d90b, #16ab74);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .logo-content{
+    margin-left: 5% ;
+    font-family: 'Exo 2', sans-serif;
+    text-decoration: none !important;
+    font-size: xx-large;
+  }
+  .blue{
+    color: #0D47A1;
+  }
+  .text-white{
+    color: white !important;
+  }
+  #prods-container{
+    margin: 9% 1% 1% 1%;
+  }
+  .dropdown-menu{
+    background-color: #333 !important;
+  }
+  .dropdown-item{
+    color: white !important;
+  }
+ .contact,
+ .filterbox,.cartBox {
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .contactinp[type="text"],
+  .contactinp[type="email"],
+  .filterbox,.cartBox,
+  textarea {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .contactSlct {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .contactinp[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+    padding: 12px;
+    width: 100%;
+  }
+  
+  .contactinp[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .contactinp[type="submit"]:focus {
+    outline: none;
+  }

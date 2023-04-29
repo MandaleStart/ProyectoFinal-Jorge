@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/x-icon" href="https://i.ibb.co/MkP0dd0/logo.png">
+  <title>Farmacia Lucrecia</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" href="../css/main.css">
+
+  <meta name="description" content="Juego rol muy basico">
+  <meta name="keywords" content="Farmacia,Solis,Mataojo,Lucrecia,Perfumeria">
+  <meta name="author" content="Nicolas Jorge ">
+  <meta name="robots" content="index, follow">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Navbar principal -->
+  <div class="fixed-top ">
+    <nav class="navbar navbar-light bg-light">
+      <div class="logo-content">
+        <a href="../index.html" class="logo ">
+          Farmacia
+          <img src="https://i.ibb.co/MkP0dd0/logo.png" alt="logo" class="img-logo">
+          LUCRECIA
+        </a>
+      </div>
+      <form class="d-flex col-md-4">
+        <input disabled id="search-input" class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+        <button disabled id="search-button" class="btn btn-outline-success" type="submit"><i class="fa fa-search"
+            aria-hidden="true"></i></button>
+            <!--deshabilitado funcionalidad en desarrollo -->
+      </form>
+      <ul class="nav-menu mx-auto">
+        <div id="userControl">
+        </div>        
+        <li><a id="cartIcon" href="../cart.html"><i class="fas fa-shopping-cart"></i><p id="cartN"></p></a></li>
+        <li><a id="favIcon" href="../fav.html"><i class="fas fa-heart"></i><p id="favN"></p></a></li>
+      </ul>
+    </nav>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCat" aria-controls="navbarCat" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCat">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./cosmetica.html" id="cosmetica">Cosmética</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./cuidado-personal.html" id="cuidado-personal">Cuidado personal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./medicamentos.html" id="medicamentos">Medicamentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./maternidad.html" id="maternidad">Maternidad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./productos-naturales.html" id="productos-naturales">Productos naturales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./perfumeria.html" id="perfumeria">Perfumería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./proteccion-solar.html" id="productos-solares">Proteccion Solar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./joyeria.html" id="joyeria">Joyería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./marcas.html" id="marcas-destacadas">Marcas destacadas</a>
+              <!--Deshabilitado: Funcionalidad en desarrollo-->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+  <main class="">
+    <section id="filtro-c" class="row-order-1 row-2 col-2 filterbox">
+
+    </section>
+    <section class="row row-cols-1 row-cols-md-3 row-cols-lg-5 mx-auto " id="prod-c">
+    </section>
+  </main>
+  <!-- Modal de inicio de sesión -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Inicio de sesión</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <form id="login-form">
+            <label for="username">Usuario:</label>
+            <input type="text" id="usernamelgn" name="username" placeholder="usuario@mail.com">
+            <br>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="passwordlgn" name="password" placeholder="********">
+            <br>
+            <div class="d-none" id="login-message"></div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button id="loginBtn" type="submit" form="login-form" class="btn btn-primary">Iniciar sesión</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal de registro -->
+  <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="registerModalLabel">Registro</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <form id="register-form">
+            <label for="username">Usuario:</label>
+            <input type="text" id="userReg" name="username"placeholder="María Pérez">
+            <br>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="emailReg" name="email" placeholder="usuario@mail.com">
+            <br>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="passReg" name="password" placeholder="********">
+            <br>
+            <label for="confirm-password">Confirmar contraseña:</label>
+            <input type="password" id="confirm_passReg" name="confirm-password" placeholder="********">
+            <br>
+            <div class="d-none" id="register-message"></div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button id="RegBtn" type="submit" form="register-form" class="btn btn-primary">Registrarse</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h4>Redes Sociales</h4>
+          <ul class="list-unstyled">
+
+            <li>
+              <a href="https://www.instagram.com/lucreciafarmacia/" class="me-4 text-reset" target="_blank">
+                <i class="fab fa-instagram"> Lucreciafarmacia</i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100010059819004" class="me-4 text-reset" target="_blank">
+                <i class="fab fa-facebook"> Farmacia Lucrecia</i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h4>Horario</h4>
+          <ul class="list-unstyled">
+
+            <li>
+              Lunes A Sabado: 08:00-20:00
+            </li>
+            <li>
+              Domingo: 08:30-12:30
+            </li>
+            <li>
+              <i class="fab fa-location-dot"></i>Dirección: Ruta 8 km 81, Solis de Mataojo
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 text-reset">
+          <h4>Contacto</h4>
+          <ul class="list-unstyled">
+            <li><a class="text-reset" href="tel:+598 4447 4952"><i class="fas fa-solid fa-phone"></i>
+                Telefono: 4447
+                4952</a></li>
+            <li><a class="text-reset" href="https://api.whatsapp.com/send/?phone=59898149089" target="_blank">
+                <i class="fab fa-whatsapp"></i> Whatsapp: 098 149 089
+              </a></li>
+            <li><a class="text-reset" href="contact.html"><i
+                  class="fas fa-envelope"></i> contacto@farmacialucrecia.com</a></li>
+          </ul>
+
+
+
+        </div>
+        <div class="col-md-3">
+          <h4>Información</h4>
+          <ul class="list-unstyled text-reset">
+            <li><a class="text-reset" href="#">Términos y Condiciones</a></li>
+            <li><a class="text-reset" href="#">Política de privacidad</a></li>
+          </ul>
+          <p>© 2023 Creado por MandaleStart.com</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src='../js/main.js'></script>
+  <script src='../js/user.js'></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
