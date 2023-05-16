@@ -39,50 +39,80 @@ Muchas gracias por comunicarte con nosotros, te estaremos respondiendo a la brev
                 <div id="userControl">
                   
                 </div>
-                <li><a id="cartIcon" href="./cart.html"><i class="fas fa-shopping-cart"></i><p id="cartN"></p></a></li>
-                <li><a id="favIcon" href="./fav.html"><i class="fas fa-heart"></i><p id="favN"></p></a></li>
-              </ul>
+                <li class="fav-container">
+                    <button class="fav-btn">
+                      <a id="favIcon" href="./fav.html">
+                        <i class="fas fa-heart"></i>
+                        <p id="favN"></p>
+                      </a>
+                    </button>
+                    <div class="fav-dropdown">
+                      <ul id="fav-list">
+                        <li>Producto 1</li>
+                        <li>Producto 2</li>
+                        <li>Producto 3</li>
+                      </ul>
+                    </div>
+                  </li>
+        
+                  <li class="cart-container">
+                    <button class="cart-btn">
+                      <a id="cartIcon" href="./cart.html">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span id="cartN"></span>
+                      </a>
+                    </button>
+                    <div class="cart-dropdown">
+                      <ul>
+                        <li>Producto 1</li>
+                        <li>Producto 2</li>
+                        <li>Producto 3</li>
+                      </ul>
+                    </div>
+                  </li>
+            </ul>
         </nav>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCat"
-                    aria-controls="navbarCat" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCat">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" id="cosmetica">Cosmética</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" id="cuidado-personal">Cuidado personal</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" id="medicamentos">Medicamentos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" id="maternidad">Maternidad</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" id="productos-naturales">Productos naturales</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" id="perfumeria">Perfumería</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" id="proteccion-solar">Proteccion Solar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" id="joyeria">Joyería</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" id="marcas-destacadas">Marcas destacadas</a>
-                        </li>
-                    </ul>
-                </div>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCat"
+                aria-controls="navbarCat" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCat">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./c/cosmetica.html" id="cosmetica">Cosmética</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./c/cuidado-personal.html" id="cuidado-personal">Cuidado personal</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./c/medicamentos.html" id="medicamentos">Medicamentos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./c/maternidad.html" id="maternidad">Maternidad</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./c/productos-naturales.html" id="productos-naturales">Productos naturales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./c/perfumeria.html" id="perfumeria">Perfumería</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./c/proteccion-solar.html" id="productos-solares">Proteccion Solar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./c/joyeria.html" id="joyeria">Joyería</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./c/marcas.html" id="marcas-destacadas">Marcas destacadas</a>
+                    <!--Deshabilitado: Funcionalidad en desarrollo-->
+                  </li>
+                </ul>
+              </div>
             </div>
-        </nav>
-    </div>
+          </nav>
+        </div>
     <main>
 
         

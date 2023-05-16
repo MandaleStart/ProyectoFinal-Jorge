@@ -12,6 +12,7 @@ const eventLogin = document.getElementById('login-message');
 const userReg = document.getElementById('userReg');
 const emailReg = document.getElementById('emailReg');
 const passReg = document.getElementById('passReg');
+const userBDay = document.getElementById("birthday");
 const confirm_passReg = document.getElementById('confirm_passReg');
 const registerBtn = document.getElementById('RegBtn');
 const eventReg = document.getElementById('register-message');
@@ -31,7 +32,10 @@ function userVerification() {
   let user = localStorage.getItem('user') || sessionStorage.getItem('user')
   if (user != null) {
     userControl.innerHTML = `<li><a>${user}</a></li>`
-  } else {
+  } else if (currentPage === "/user.html"){
+    location.href = './index.html';
+  }
+  else {
     userControl.innerHTML = `<li><a data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar sesión</a></li>
         <li><a data-bs-toggle="modal" data-bs-target="#registerModal">Registrarse</a></li>`
   }
@@ -82,14 +86,14 @@ iniciarSesionBtn.addEventListener("click", function (event) {
 registerBtn.addEventListener("click", function (event) {
   event.preventDefault();
   const newUser = userReg.value;
-  const newName= 123;
-  const newLastName= 123;
+  const newName = document.querySelector("#userName").value;
+  const newLastName = document.querySelector("#userLastName").value;
   const newEmail = emailReg.value;
   const newPass = passReg.value;
   const newConfirmPass = confirm_passReg.value;
-  const newBirthday = user;
+  const newBirthday = userBDay.value;
 
-  if (newUser === "" || newEmail === "" || newPass === "" || newConfirmPass === "") {
+  if (newUser === "" || newName === "" || newLastName === "" || newEmail === "" || newPass === "" || newConfirmPass === "" || newBirthday === "") {
     console.log(msg.datoFaltante);
     eventReg.textContent = msg.datoFaltante;
 
@@ -98,41 +102,40 @@ registerBtn.addEventListener("click", function (event) {
     eventReg.textContent = msg.passNoIgual;
     eventError(eventReg)
   } else {
-    eventReg.textContent = "Registro correcto(en teoria)";
-    eventOk(eventReg)
     const usuarios = data.users;
     // Genera un nuevo ID para el usuario
-    const newID = (usuarios.length + 1).toString().padStart(3, "0"); 
-    
+    const newID = (usuarios.length + 1).toString().padStart(3, "0");
+
     const newUserObj = {
       "id": newID,
       "user": newUser,
-      "name": 12,
-      "lastname": 12,
+      "name": newName,
+      "lastname": newLastName,
       "mail": newEmail,
       "pass": newPass,
       "fab": [],
       "cart": [],
       "img": "/notiene.jpg",
       "created": "27-04-2023",
-      "birthday": "12-08-2001"
+      "birthday": newBirthday
     };
 
     usuarios.push(newUserObj);
     const newData = JSON.stringify(data);
 
-  }
-  fetch(URL_USERS, {
-    method: 'PUT',
-    body: newData,
-    headers: {
-      'Content-Type': 'application/json'
-    }
-  })
-    .then(response => {
-      console.log(msg.usercreate)
+    fetch(URL_USERS, {
+      method: 'PUT',
+      body: newData,
+      headers: {
+        'Content-Type': 'application/json'
+      }
     })
-    .catch(error => console.error(error));
-
-
-})
+      .then(response => {
+        console.log(msg.usercreate)
+        eventReg.textContent = "Registro correcto";
+        eventOk(eventReg);
+      })
+      .catch(error => console.error(error));
+  }
+}
+)

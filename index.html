@@ -21,76 +21,112 @@
 <body>
   <!-- Navbar principal -->
   <nav class="nav">
-  <div class="fixed-top">
-    <nav class="navbar navbar-light bg-light">
-      <div class="logo-content">
-        <a href="index.html" class="logo ">
-          Farmacia
-          <img src="https://i.ibb.co/MkP0dd0/logo.png" alt="logo" class="img-logo">
-          LUCRECIA
-        </a>
-      </div>
-      <form class="d-flex col-md-4">
-        <input disabled id="search-input" class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
-        <button disabled id="search-button" class="btn btn-outline-success" type="submit"><i class="fa fa-search"
-            aria-hidden="true"></i></button>
-            <!--deshabilitado funcionalidad en desarrollo -->
-      </form>
-      <ul class="nav-menu mx-auto">
-        <div id="userControl">
-
+    <div class="fixed-top">
+      <nav class="navbar navbar-light bg-light">
+        <div class="logo-content">
+          <a href="index.html" class="logo ">
+            Farmacia
+            <img src="https://i.ibb.co/MkP0dd0/logo.png" alt="logo" class="img-logo">
+            LUCRECIA
+          </a>
         </div>
-        <li><a id="cartIcon" href="./cart.html"><i class="fas fa-shopping-cart"></i><p id="cartN"></p></a></li>
-        <li><a id="favIcon" href="./fav.html"><i class="fas fa-heart"></i><p id="favN"></p></a></li>
-      </ul>
-    </nav>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCat" aria-controls="navbarCat" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCat">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="./c/cosmetica.html" id="cosmetica">Cosmética</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./c/cuidado-personal.html" id="cuidado-personal">Cuidado personal</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./c/medicamentos.html" id="medicamentos">Medicamentos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./c/maternidad.html" id="maternidad">Maternidad</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./c/productos-naturales.html" id="productos-naturales">Productos naturales</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./c/perfumeria.html" id="perfumeria">Perfumería</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./c/proteccion-solar.html" id="productos-solares">Proteccion Solar</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./c/joyeria.html" id="joyeria">Joyería</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./c/marcas.html" id="marcas-destacadas">Marcas destacadas</a>
-              <!--Deshabilitado: Funcionalidad en desarrollo-->
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
+        <form class="d-flex col-md-4">
+          <input disabled id="search-input" class="form-control me-2" type="search" placeholder="Buscar..."
+            aria-label="Search">
+          <button disabled id="search-button" class="btn btn-outline-success" type="submit"><i class="fa fa-search"
+              aria-hidden="true"></i></button>
+          <!--deshabilitado funcionalidad en desarrollo -->
+        </form>
+        <ul class="nav-menu mx-auto">
+          <li id="userControl">
 
-</nav>
-  <main class="">
-    <section id="filtro-c" class="row-order-1 row-2 col-2 filterbox">
+          </li>
+
+          <li class="fav-container">
+            <button class="fav-btn">
+              <a id="favIcon" href="./fav.html">
+                <i class="fas fa-heart"></i>
+                <p id="favN"></p>
+              </a>
+            </button>
+            <div class="fav-dropdown">
+              <ul id="fav-list">
+                <li>Producto 1</li>
+                <li>Producto 2</li>
+                <li>Producto 3</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="cart-container">
+            <button class="cart-btn">
+              <a id="cartIcon" href="./cart.html">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cartN"></span>
+              </a>
+            </button>
+            <div class="cart-dropdown">
+              <ul>
+                <li>Producto 1</li>
+                <li>Producto 2</li>
+                <li>Producto 3</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCat"
+            aria-controls="navbarCat" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCat">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./c/cosmetica.html" id="cosmetica">Cosmética</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./c/cuidado-personal.html" id="cuidado-personal">Cuidado personal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./c/medicamentos.html" id="medicamentos">Medicamentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./c/maternidad.html" id="maternidad">Maternidad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./c/productos-naturales.html" id="productos-naturales">Productos naturales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./c/perfumeria.html" id="perfumeria">Perfumería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./c/proteccion-solar.html" id="productos-solares">Proteccion Solar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./c/joyeria.html" id="joyeria">Joyería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./c/marcas.html" id="marcas-destacadas">Marcas destacadas</a>
+                <!--Deshabilitado: Funcionalidad en desarrollo-->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+  </nav>
+  <main class="row">
+    <section id="filtro-c" class="col-order-1 col-2 filterbox">
 
     </section>
-    <section class="row row-cols-1 row-cols-md-3 row-cols-lg-5 mx-auto " id="prod-c">
+
+    <section class="col-10 col-order-2">
+      <div id="prod-c" class=" row row-cols-1 row-cols-md-3 row-cols-lg-5 mx-auto">
+
+      </div>
     </section>
   </main>
   <!-- Modal de inicio de sesión -->
@@ -148,15 +184,16 @@
               <input type="email" class="form-control" id="emailReg" name="email" placeholder="usuario@mail.com">
             </div>
             <div class="row mb-3">
-            <div class="col">
-              <label for="passReg" class="form-label">Contraseña:</label>
-              <input type="password" class="form-control" id="passReg" name="password" placeholder="********">
+              <div class="col">
+                <label for="passReg" class="form-label">Contraseña:</label>
+                <input type="password" class="form-control" id="passReg" name="password" placeholder="********">
+              </div>
+              <div class="col">
+                <label for="confirm_passReg" class="form-label">Confirmar contraseña:</label>
+                <input type="password" class="form-control" id="confirm_passReg" name="confirm-password"
+                  placeholder="********">
+              </div>
             </div>
-            <div class="col">
-              <label for="confirm_passReg" class="form-label">Confirmar contraseña:</label>
-              <input type="password" class="form-control" id="confirm_passReg" name="confirm-password" placeholder="********">
-            </div>
-          </div>
             <div class="mb-3">
               <label for="birthday" class="form-label">Fecha de cumpleaños:</label>
               <input type="date" class="form-control" id="birthday" name="birthday">
@@ -223,8 +260,8 @@
             <li><a class="text-reset" href="https://api.whatsapp.com/send/?phone=59898149089" target="_blank">
                 <i class="fab fa-whatsapp"></i> Whatsapp: 098 149 089
               </a></li>
-            <li><a class="text-reset" href="contact.html"><i
-                  class="fas fa-envelope"></i> contacto@farmacialucrecia.com</a></li>
+            <li><a class="text-reset" href="contact.html"><i class="fas fa-envelope"></i>
+                contacto@farmacialucrecia.com</a></li>
           </ul>
 
 

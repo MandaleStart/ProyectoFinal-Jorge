@@ -37,10 +37,37 @@
       </form>
       <ul class="nav-menu mx-auto">
         <div id="userControl">
-        </div>
-        <li><a id="cartIcon" href="../cart.html"><i class="fas fa-shopping-cart"></i><p id="cartN"></p></a></li>
-        <li><a id="favIcon" href="../fav.html"><i class="fas fa-heart"></i><p id="favN"></p></a></li>
-      </ul>
+        </div>          <li class="fav-container">
+          <button class="fav-btn">
+            <a id="favIcon" href="../fav.html">
+              <i class="fas fa-heart"></i>
+              <p id="favN"></p>
+            </a>
+          </button>
+          <div class="fav-dropdown">
+            <ul id="fav-list">
+              <li>Producto 1</li>
+              <li>Producto 2</li>
+              <li>Producto 3</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="cart-container">
+          <button class="cart-btn">
+            <a id="cartIcon" href="../cart.html">
+              <i class="fas fa-shopping-cart"></i>
+              <span id="cartN"></span>
+            </a>
+          </button>
+          <div class="cart-dropdown">
+            <ul>
+              <li>Producto 1</li>
+              <li>Producto 2</li>
+              <li>Producto 3</li>
+            </ul>
+          </div>
+        </li></ul>
     </nav>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <div class="container">

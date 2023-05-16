@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/MkP0dd0/logo.png">
+    <title>Farmacia Lucrecia</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="./css/main.css">
+
+    <meta name="description" content="Juego rol muy basico">
+    <meta name="keywords" content="Farmacia,Solis,Mataojo,Lucrecia,Perfumeria">
+    <meta name="author" content="Nicolas Jorge ">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navbar principal -->
+    <nav class="nav">
+        <div class="fixed-top">
+            <nav class="navbar navbar-light bg-light">
+                <div class="logo-content">
+                    <a href="index.html" class="logo ">
+                        Farmacia
+                        <img src="https://i.ibb.co/MkP0dd0/logo.png" alt="logo" class="img-logo">
+                        LUCRECIA
+                    </a>
+                </div>
+                <form class="d-flex col-md-4">
+                    <input disabled id="search-input" class="form-control me-2" type="search" placeholder="Buscar..."
+                        aria-label="Search">
+                    <button disabled id="search-button" class="btn btn-outline-success" type="submit"><i
+                            class="fa fa-search" aria-hidden="true"></i></button>
+                    <!--deshabilitado funcionalidad en desarrollo -->
+                </form>
+                <ul class="nav-menu mx-auto">
+                    <div id="userControl">
+
+                    </div>
+                    <li class="fav-container">
+                        <button class="fav-btn">
+                          <a id="favIcon" href="./fav.html">
+                            <i class="fas fa-heart"></i>
+                            <p id="favN"></p>
+                          </a>
+                        </button>
+                        <div class="fav-dropdown">
+                          <ul id="fav-list">
+                            <li>Producto 1</li>
+                            <li>Producto 2</li>
+                            <li>Producto 3</li>
+                          </ul>
+                        </div>
+                      </li>
+            
+                      <li class="cart-container">
+                        <button class="cart-btn">
+                          <a id="cartIcon" href="./cart.html">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span id="cartN"></span>
+                          </a>
+                        </button>
+                        <div class="cart-dropdown">
+                          <ul>
+                            <li>Producto 1</li>
+                            <li>Producto 2</li>
+                            <li>Producto 3</li>
+                          </ul>
+                        </div>
+                      </li>
+                </ul>
+            </nav>
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCat"
+                        aria-controls="navbarCat" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCat">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./c/cosmetica.html" id="cosmetica">Cosmética</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./c/cuidado-personal.html" id="cuidado-personal">Cuidado
+                                    personal</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./c/medicamentos.html" id="medicamentos">Medicamentos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./c/maternidad.html" id="maternidad">Maternidad</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./c/productos-naturales.html"
+                                    id="productos-naturales">Productos naturales</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./c/perfumeria.html" id="perfumeria">Perfumería</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./c/proteccion-solar.html" id="productos-solares">Proteccion
+                                    Solar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./c/joyeria.html" id="joyeria">Joyería</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./c/marcas.html" id="marcas-destacadas">Marcas destacadas</a>
+                                <!--Deshabilitado: Funcionalidad en desarrollo-->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </nav>
+    <main class="row">
+        <div id="userBox" class="container py-5 col">
+            <h1 class="text-center mb-5">Bienvenido/a [Nombre de usuario]</h1>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action active">Menu</a>
+                            <a href="#" class="list-group-item list-group-item-action">Datos personales</a>
+                            <a href="#" class="list-group-item list-group-item-action">Direcciones de envío</a>
+                            <a href="#" class="list-group-item list-group-item-action">Historial de pedidos</a>
+                            <a href="#" class="list-group-item list-group-item-action">Cerrar sesión</a>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div id="datos-personales">
+                            <!-- Aquí iría el contenido de la sección de datos personales -->
+                        </div>
+                        <div id="direcciones-envio">
+                            <!-- Aquí iría el contenido de la sección de direcciones de envío -->
+                        </div>
+                        <div id="historial-pedidos">
+                            <!-- Aquí iría el contenido de la sección de historial de pedidos -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="datos-personales" class="col">
+            <h2>Datos personales</h2>
+            <p><strong>Fecha de creación de cuenta:</strong> 01/01/2022</p>
+            <form>
+              <div class="form-group">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre completo">
+              </div>
+              <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+              </div>
+              <div class="form-group">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" class="form-control" id="telefono" placeholder="Ingresa tu número de teléfono">
+              </div>
+              <div class="form-group">
+                <label for="direccion">Dirección</label>
+                <input type="text" class="form-control" id="direccion" placeholder="Ingresa tu dirección">
+              </div>
+              <p><strong>Fecha de cumpleaños:</strong> 01/01/2000</p>
+              <button type="submit" class="btn btn-primary">Guardar cambios</button>
+            </form>
+          </div>
+
+          <div id="direcciones-envio" class="col">
+            <h2>Direcciones de envío</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Casa</h5>
+                    <p class="card-text">Calle 123 #456, Colonia Centro, Ciudad, Estado, País</p>
+                    <a href="#" class="card-link">Editar</a>
+                    <a href="#" class="card-link">Eliminar</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Trabajo</h5>
+                    <p class="card-text">Avenida 789 #012, Colonia Industrial, Ciudad, Estado, País</p>
+                    <a href="#" class="card-link">Editar</a>
+                    <a href="#" class="card-link">Eliminar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div id="historial-pedidos">
+            <h2>Historial de pedidos</h2>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Fecha</th>
+                  <th>Número de pedido</th>
+                  <th>Estado</th>
+                  <th>Total</th>
+                  <th>Acciones</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>01/01/2022</td>
+                  <td>123456</td>
+                  <td>Entregado</td>
+                  <td>$100.00</td>
+                  <td><a href="#">Ver detalles</a></td>
+                </tr>
+                <tr>
+                  <td>02/01/2022</td>
+                  <td>234567</td>
+                  <td>En tránsito</td>
+                  <td>$50.00</td>
+                  <td><a href="#">Ver detalles</a></td>
+                </tr>
+                <tr>
+                  <td>03/01/2022</td>
+                  <td>345678</td>
+                  <td>Pendiente</td>
+                  <td>$200.00</td>
+                  <td><a href="#">Ver detalles</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+    </main>
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>Redes Sociales</h4>
+                    <ul class="list-unstyled">
+
+                        <li>
+                            <a href="https://www.instagram.com/lucreciafarmacia/" class="me-4 text-reset"
+                                target="_blank">
+                                <i class="fab fa-instagram"> Lucreciafarmacia</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100010059819004" class="me-4 text-reset"
+                                target="_blank">
+                                <i class="fab fa-facebook"> Farmacia Lucrecia</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Horario</h4>
+                    <ul class="list-unstyled">
+
+                        <li>
+                            Lunes A Sabado: 08:00-20:00
+                        </li>
+                        <li>
+                            Domingo: 08:30-12:30
+                        </li>
+                        <li>
+                            <i class="fab fa-location-dot"></i>Dirección: Ruta 8 km 81, Solis de Mataojo
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 text-reset">
+                    <h4>Contacto</h4>
+                    <ul class="list-unstyled">
+                        <li><a class="text-reset" href="tel:+598 4447 4952"><i class="fas fa-solid fa-phone"></i>
+                                Telefono: 4447
+                                4952</a></li>
+                        <li><a class="text-reset" href="https://api.whatsapp.com/send/?phone=59898149089"
+                                target="_blank">
+                                <i class="fab fa-whatsapp"></i> Whatsapp: 098 149 089
+                            </a></li>
+                        <li><a class="text-reset" href="contact.html"><i class="fas fa-envelope"></i>
+                                contacto@farmacialucrecia.com</a></li>
+                    </ul>
+
+
+
+                </div>
+                <div class="col-md-3">
+                    <h4>Información</h4>
+                    <ul class="list-unstyled text-reset">
+                        <li><a class="text-reset" href="#">Términos y Condiciones</a></li>
+                        <li><a class="text-reset" href="#">Política de privacidad</a></li>
+                    </ul>
+                    <p>© 2023 Creado por MandaleStart.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src='js/main.js'></script>
+    <script src='js/user.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

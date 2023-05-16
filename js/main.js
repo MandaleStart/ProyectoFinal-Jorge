@@ -61,7 +61,7 @@ fetch(URL_PROD, {
     } else if (currentPage === "/c/proteccion-solar.html") {
       loaditems(datos.solares)
       BtnControl()
-    } else if(currentPage === "/c/productos-naturales.html"){
+    } else if (currentPage === "/c/productos-naturales.html") {
       loaditems(datos.naturales);
       BtnControl();
     };
@@ -114,10 +114,10 @@ function loaditems(productos, precioMinimo, precioMaximo) {
   for (let producto of productos) {
     let renderProducto = producto.image ?? "https://i.ibb.co/MpG69V7/nofoto.png";
     if (producto.stock == 0) {
-     // const EOSViewState = localStorage.getItem("EOSViewState");
+      // const EOSViewState = localStorage.getItem("EOSViewState");
 
-     // if (EOSViewState === "enable") {
-        contitem.innerHTML += `<div class="col-md-4 mt-3" id="${producto.id}">
+      // if (EOSViewState === "enable") {
+      contitem.innerHTML += `<div class="col-md-4 mt-3" id="${producto.id}">
       <div class="card h-100">
           <img src="${renderProducto}"
               class="card-img-top" alt="${producto.name}">
@@ -131,9 +131,9 @@ function loaditems(productos, precioMinimo, precioMaximo) {
           </div>
       </div>
   </div>`;
-     // } else {
-        // deshabilitar EOS View
-     // }
+      // } else {
+      // deshabilitar EOS View
+      // }
     } else {
       contitem.innerHTML += `<div class="col-md-4 mt-3" id="${producto.id}">
       <div class="card h-100">
@@ -197,4 +197,44 @@ function cartAdd() {
 
     })
   })
+}
+
+
+//contact zone
+function validateForm() {
+  var name = document.getElementById("name").value;
+  var nameError = document.getElementById("name-e").value;
+
+  var email = document.getElementById("email").value;
+  var emailError = document.getElementById("email-e").value;
+
+  var subject = document.getElementById("subject").value;
+  var subjectError = document.getElementById("subject-e").value;
+
+  var message = document.getElementById("message").value;
+  var messageError = document.getElementById("message-e").value;
+  
+  console.log(subject)
+  if (name === "") {
+    nameError.classList.remove('d-none')
+    return false;
+  }
+
+  if (email === "") {
+    emailError.classList.remove('d-none')
+    return false;
+  }
+
+  if (subject === "default") {
+    subjectError.classList.remove('d-none');
+    return false;
+  }
+
+  if (message === "") {
+    messageError.classList.remove('d-none')
+
+    return false;
+  }
+
+  return true;
 }
