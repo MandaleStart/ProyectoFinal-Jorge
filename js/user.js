@@ -1,5 +1,5 @@
 // JSON para simular una base de datos de usuario - seguridad 0
-const URL_USERS = "https://644493ddb80f57f581a7a351.mockapi.io/users";
+const URL_USERS = "127.0.0.1:3000/usuarios/";
 
 // div de inicio/registro y user
 const userControl = document.getElementById('userControl')

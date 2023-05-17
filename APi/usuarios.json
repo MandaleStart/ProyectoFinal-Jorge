@@ -1,0 +1,18 @@
+{
+    "users": [
+        {
+            "ID": "000",
+            "name": "Admin",
+            "mail": "admin@farmacialucrecia.com",
+            "pass": "Passdeprueba@Admin",
+            "imgProfile": "/notiene.jpg"
+        },
+        {
+            "ID": "001",
+            "name": "Luis Suarez",
+            "mail": "luisS@mailfalso.com",
+            "pass": "Segura1234",
+            "imgProfile": "/notiene.jpg"
+        }
+    ]
+}

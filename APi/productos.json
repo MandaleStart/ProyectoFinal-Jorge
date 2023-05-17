@@ -1,0 +1,2585 @@
+[
+    {
+        "id": 100100,
+        "name": "Chanel No. 5 EDP 100ml",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 11800,
+        "image": "https://i.ibb.co/sKZkhyn/100100.jpg",
+        "brand": "Chanel",
+        "gender": "female",
+        "stock": 10,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100102,
+        "name": "Dior J'adore EDP 100ml",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 11200,
+        "image": "https://i.ibb.co/Gc7GBV9/100102.jpg",
+        "brand": "Dior",
+        "gender": "female",
+        "stock": 10,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100109,
+        "name": " Chanel Coco Mademoiselle EDP 100ml",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 11800,
+        "image": "https://i.ibb.co/V2tzmQK/100156.webp",
+        "brand": "Chanel",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100103,
+        "name": "Tom Ford Black Orchid EDP 100ml",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 16500,
+        "image": "https://i.ibb.co/q1kLRq5/100145.webp",
+        "brand": "Tom Ford",
+        "gender": "unisex",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100104,
+        "name": "Thierry Mugler Angel EDP 100ml",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 10500,
+        "image": "https://i.ibb.co/jfZhBr1/100158.jpg",
+        "brand": "Thierry Mugler",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100105,
+        "name": "Lancôme La Vie Est Belle EDP 100ml",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 12500,
+        "image": "https://i.ibb.co/sPjh46x/100105.jpg",
+        "brand": "Lancôme",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100106,
+        "name": "Dolce & Gabbana Light Blue EDT 100ml",
+        "cantml": "100ml",
+        "type": "EDT",
+        "cost": 7500,
+        "image": "https://i.ibb.co/NSZ0Qg2/100150.jpg",
+        "brand": "Dolce & Gabbana",
+        "gender": "unisex-female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100107,
+        "name": "Viktor & Rolf Flowerbomb EDP 100ml",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 12500,
+        "image": "https://i.ibb.co/1L8znjQ/100155.jpg",
+        "brand": "Viktor & Rolf",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100108,
+        "name": "Guerlain Shalimar EDP 90ml",
+        "cantml": "90ml",
+        "type": "EDP",
+        "cost": 13500,
+        "image": "https://i.ibb.co/t8LyzLk/Guerlain-Shalimar.jpg",
+        "brand": "Guerlain",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100110,
+        "name": " Yves Saint Laurent Opium EDP 90ml",
+        "cantml": "90ml",
+        "type": "EDP",
+        "cost": 12500,
+        "image": "https://i.ibb.co/2czCvkd/100159.jpg",
+        "brand": "Yves Saint Laurent",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100111,
+        "name": "Carolina Herrera Good Girl EDP 80ml",
+        "cantml": "80ml",
+        "type": "EDP",
+        "cost": 10500,
+        "image": "https://i.ibb.co/jktGWHh/100161.jpg",
+        "brand": "Carolina Herrera",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100112,
+        "name": "Chanel N°5 L'Eau EDT 100ml",
+        "cantml": "100ml",
+        "type": "EDT",
+        "cost": 12000,
+        "image": "https://i.ibb.co/MkV4vRp/100112.jpg",
+        "brand": "Chanel",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100113,
+        "name": "Thierry Mugler Alien EDP 90ml",
+        "cantml": "90ml",
+        "type": "EDP",
+        "cost": 10500,
+        "image": "https://i.ibb.co/nzsvntg/100113.jpg",
+        "brand": "Thierry Mugler",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100114,
+        "name": "Giorgio Armani Si EDP 100ml",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 10500,
+        "image": "https://i.ibb.co/QCpX6cq/100114.webp",
+        "brand": "Giorgio Armani",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100115,
+        "name": "Yves Saint Laurent Black Opium EDP 90ml",
+        "cantml": "90ml",
+        "type": "EDP",
+        "cost": 13000,
+        "image": "https://i.ibb.co/2czCvkd/100159.jpg",
+        "brand": "Yves Saint Laurent",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100116,
+        "name": "Marc Jacobs Daisy EDT ",
+        "cantml": "100ml",
+        "type": "EDT",
+        "cost": 8000,
+        "image": "https://i.ibb.co/rQ5DtQR/100143.jpg",
+        "brand": "Marc Jacobs",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100117,
+        "name": "Giorgio Armani Acqua di Gioia EDP 100ml",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 9500,
+        "image": "https://i.ibb.co/Xpb4fng/100117.jpg",
+        "brand": "Giorgio Armani",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100118,
+        "name": "Dior Miss Dior",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 12000,
+        "image": "https://i.ibb.co/R7WWcj4/100118.webp",
+        "brand": "Dior",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100119,
+        "name": "Calvin Klein Euphoria",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 9000,
+        "image": "https://i.ibb.co/D9CYpjM/100119.jpg",
+        "brand": "Calvin Klein",
+        "gender": "unisex-female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100120,
+        "name": "Gucci Bloom",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 12900,
+        "image": "https://i.ibb.co/zhYnXTv/100148.jpg",
+        "brand": "Gucci",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100126,
+        "name": "Flowerbomb",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 13000,
+        "image": "https://i.ibb.co/1L8znjQ/100155.jpg",
+        "brand": "Viktor & Rolf",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100128,
+        "name": "Thierry Mugler Angel",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 11000,
+        "image": "https://i.ibb.co/jfZhBr1/100158.jpg",
+        "brand": "Thierry Mugler",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100131,
+        "name": "Calvin Klein Eternity",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 9000,
+        "image": "https://i.ibb.co/Kq9PNtG/100131.jpg",
+        "brand": "Calvin Klein",
+        "gender": "unisex-female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100132,
+        "name": "Yves Saint Laurent Opium",
+        "cantml": "90ml",
+        "type": "EDP",
+        "cost": 12500,
+        "image": "https://i.ibb.co/2czCvkd/100159.jpg",
+        "brand": "Yves Saint Laurent",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100133,
+        "name": "Dior J'adore",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 13500,
+        "image": "https://i.ibb.co/Gc7GBV9/100102.jpg",
+        "brand": "Dior",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100138,
+        "name": "Chopard Wish",
+        "cantml": "75ml",
+        "type": "EDP",
+        "cost": 5500,
+        "image": "https://i.ibb.co/M9tCgJ0/100138.jpg",
+        "brand": "Chopard",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100139,
+        "name": "Jimmy Choo",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 12000,
+        "image": "https://i.ibb.co/GpDvzzc/100139.jpg",
+        "brand": "Jimmy Choo",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100140,
+        "name": "Jean Paul Gaultier Classique",
+        "cantml": "100ml",
+        "type": "EDT",
+        "cost": 11500,
+        "image": "https://i.ibb.co/BKyj1fC/100140.jpg",
+        "brand": "Jean Paul Gaultier",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100141,
+        "name": "Prada Candy",
+        "cantml": "80ml",
+        "type": "EDP",
+        "cost": 13000,
+        "image": "https://i.ibb.co/NLBsr2x/100141.jpg",
+        "brand": "Prada",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100142,
+        "name": "Giorgio Armani Acqua di Gio Homme",
+        "cantml": "30ml",
+        "type": "EDT",
+        "cost": 3500,
+        "image": "https://i.ibb.co/8ccZnbK/perfume-acqua-di-gio-homme-edt-30-ml.webp",
+        "brand": "Giorgio Armani",
+        "gender": "male",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100143,
+        "name": "Marc Jacobs Daisy",
+        "cantml": "100ml",
+        "type": "EDT",
+        "cost": 9500,
+        "image": "https://i.ibb.co/rQ5DtQR/100143.jpg",
+        "brand": "Marc Jacobs",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100144,
+        "name": "Burberry My Burberry",
+        "cantml": "90ml",
+        "type": "EDP",
+        "cost": 13000,
+        "image": "https://i.ibb.co/Rbs0B6M/100144.jpg",
+        "brand": "Burberry",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100145,
+        "name": "Tom Ford Black Orchid",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 22000,
+        "image": "https://i.ibb.co/q1kLRq5/100145.webp",
+        "brand": "Tom Ford",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100146,
+        "name": "Yves Saint Laurent Black Opium",
+        "cantml": "90ml",
+        "type": "EDP",
+        "cost": 14000,
+        "image": "https://i.ibb.co/2czCvkd/100159.jpg",
+        "brand": "Yves Saint Laurent",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100147,
+        "name": "Versace Bright Crystal",
+        "cantml": "90ml",
+        "type": "EDT",
+        "cost": 12000,
+        "image": "https://i.ibb.co/nw28QgP/100147.webp",
+        "brand": "Versace",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100148,
+        "name": "Gucci Bloom",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 15000,
+        "image": "https://i.ibb.co/zhYnXTv/100148.jpg",
+        "brand": "Gucci",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100149,
+        "name": "Chanel Chance",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 18000,
+        "image": "https://i.ibb.co/m6jv9tb/100149.jpg",
+        "brand": "Chanel",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100150,
+        "name": "Dolce & Gabbana Light Blue",
+        "cantml": "100ml",
+        "type": "EDT",
+        "cost": 11000,
+        "image": "https://i.ibb.co/NSZ0Qg2/100150.jpg",
+        "brand": "Dolce & Gabbana",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100151,
+        "name": "Issey Miyake L'Eau d'Issey Pour Homme",
+        "cantml": "125ml",
+        "type": "EDT",
+        "cost": 12000,
+        "image": "https://i.ibb.co/3mnhWP6/100151.jpg",
+        "brand": "Issey Miyake",
+        "gender": "male",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100152,
+        "name": "Carolina Herrera Good Girl",
+        "cantml": "80ml",
+        "type": "EDP",
+        "cost": 14500,
+        "image": "https://i.ibb.co/jktGWHh/100161.jpg",
+        "brand": "Carolina Herrera",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100153,
+        "name": "Paco Rabanne 1 Million",
+        "cantml": "100ml",
+        "type": "EDT",
+        "cost": 14000,
+        "image": "https://i.ibb.co/NLgXHRL/100153.webp",
+        "brand": "Paco Rabanne",
+        "gender": "male",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100154,
+        "name": "Hermès Terre d'Hermès",
+        "cantml": "100ml",
+        "type": "EDT",
+        "cost": 3400,
+        "image": "https://i.ibb.co/Mff9BbW/100154.jpg",
+        "brand": "Hermès",
+        "gender": "male",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100155,
+        "name": "Viktor&Rolf Flowerbomb",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 3500,
+        "image": "https://i.ibb.co/1L8znjQ/100155.jpg",
+        "brand": "Viktor&Rolf",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100156,
+        "name": "Chanel Coco Mademoiselle",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 4400,
+        "image": "https://i.ibb.co/V2tzmQK/100156.webp",
+        "brand": "Chanel",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100157,
+        "name": "Narciso Rodriguez for Her",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 3900,
+        "image": "https://i.ibb.co/bFZb64T/100157.jpg",
+        "brand": "Narciso Rodriguez",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100158,
+        "name": "Thierry Mugler Angel",
+        "cantml": "100ml",
+        "type": "EDP",
+        "cost": 4400,
+        "image": "https://i.ibb.co/jfZhBr1/100158.jpg",
+        "brand": "Thierry Mugler",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100159,
+        "name": "Yves Saint Laurent Black Opium",
+        "cantml": "90ml",
+        "type": "EDP",
+        "cost": 3700,
+        "image": "https://i.ibb.co/2czCvkd/100159.jpg",
+        "brand": "Yves Saint Laurent",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100160,
+        "name": "Yves Saint Laurent La Nuit de L'Homme",
+        "cantml": "100ml",
+        "type": "EDT",
+        "cost": 3900,
+        "image": "https://i.ibb.co/zs7S9g9/100160.jpg",
+        "brand": "Yves Saint Laurent",
+        "gender": "male",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100161,
+        "name": "Carolina Herrera Good Girl",
+        "cantml": "80ml",
+        "type": "EDP",
+        "cost": 4100,
+        "image": "https://i.ibb.co/jktGWHh/100161.jpg",
+        "brand": "Carolina Herrera",
+        "gender": "female",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100162,
+        "name": "Jean Paul Gaultier Le Male",
+        "cantml": "125ml",
+        "type": "EDT",
+        "cost": 3400,
+        "image": "https://i.ibb.co/HGxzBX3/100162.jpg",
+        "brand": "Jean Paul Gaultier",
+        "gender": "male",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 100163,
+        "name": "Hugo Boss Boss Bottled",
+        "cantml": "100ml",
+        "type": "EDT",
+        "cost": 3200,
+        "image": "https://i.ibb.co/MN3Tr6x/100163.webp",
+        "brand": "Hugo Boss",
+        "gender": "male",
+        "stock": 0,
+        "categoria": {
+            "nombre": "perfumeria",
+            "id": "perfumeria"
+        }
+    },
+    {
+        "id": 10010,
+        "name": "Esmalte VOGUE Brillo larga duracion gel",
+        "cantml": "10",
+        "type": "esmalte",
+        "cost": 100,
+        "image": "https://i.ibb.co/M8v9kwf/esmalte-vogue-brillo-larga-duracion-gel.webp",
+        "brand": "VOGUE",
+        "stock": 1,
+        "categoria": {
+            "nombre": "cosmetica",
+            "id": "cosmetica"
+        }
+    },
+    {
+        "id": 10011,
+        "name": "Esmalte VOGUE Blanco ",
+        "cantml": "10",
+        "type": "esmalte",
+        "cost": 100,
+        "image": "https://i.ibb.co/RB3JHn9/esmalte-vogue-fantastic-02-blanco-arm-esmalte-vogue-fantastic-02-blanco-arm.webp",
+        "brand": "VOGUE",
+        "stock": 1,
+        "categoria": {
+            "nombre": "cosmetica",
+            "id": "cosmetica"
+        }
+    },
+    {
+        "id": 10012,
+        "name": "Esmalte VOGUE Delicado Frances",
+        "cantml": "10",
+        "type": "esmalte",
+        "cost": 100,
+        "image": "https://i.ibb.co/NZHq9fz/esmalte-vogue-fantastic-11-delicado-frances-esmalte-vogue-fantastic-11-delicado-frances.webp",
+        "brand": "VOGUE",
+        "stock": 1,
+        "categoria": {
+            "nombre": "cosmetica",
+            "id": "cosmetica"
+        }
+    },
+    {
+        "id": 10013,
+        "name": "Esmalte VOGUE Geranio",
+        "cantml": "10",
+        "type": "esmalte",
+        "cost": 100,
+        "image": "https://i.ibb.co/175gf8t/esmalte-vogue-fantastic-17-geranio-esmalte-vogue-fantastic-17-geranio.webp",
+        "brand": "VOGUE",
+        "stock": 1,
+        "categoria": {
+            "nombre": "cosmetica",
+            "id": "cosmetica"
+        }
+    },
+    {
+        "id": 10014,
+        "name": "Esmalte Vogue Onix",
+        "cantml": "10",
+        "type": "esmalte",
+        "cost": 100,
+        "image": "https://i.ibb.co/RDK0p03/esmalte-vogue-fantastic-44-onix-esmalte-vogue-fantastic-44-onix.webp",
+        "brand": "VOGUE",
+        "stock": 1,
+        "categoria": {
+            "nombre": "cosmetica",
+            "id": "cosmetica"
+        }
+    },
+    {
+        "id": 10015,
+        "name": "Esmalte VOGUE Sensual",
+        "cantml": "10",
+        "type": "esmalte",
+        "cost": 100,
+        "image": "https://i.ibb.co/j33VF1p/esmalte-vogue-fantastic-150-sensual-esmalte-vogue-fantastic-150-sensual.webp",
+        "brand": "VOGUE",
+        "stock": 1,
+        "categoria": {
+            "nombre": "cosmetica",
+            "id": "cosmetica"
+        }
+    },
+    {
+        "id": 10016,
+        "name": "Esmalte VOGUE Safiro",
+        "cantml": "10",
+        "type": "esmalte",
+        "cost": 100,
+        "image": "https://i.ibb.co/b5xj2mN/esmalte-vogue-fantastic-208-zafiro-esmalte-vogue-fantastic-208-zafiro.webp",
+        "brand": "VOGUE",
+        "stock": 1,
+        "categoria": {
+            "nombre": "cosmetica",
+            "id": "cosmetica"
+        }
+    },
+    {
+        "id": 33407,
+        "name": "CREMA FACIAL CC CON COLOR FPS 50",
+        "cant": 50,
+        "cost": 2495.74,
+        "image": null,
+        "stock": 1,
+        "brand": "NIVEA",
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33412,
+        "name": "LOCION NIÑOS - FPS 50 (CAJA X 6)",
+        "cant": 150,
+        "cost": 3042.63,
+        "image": null,
+        "stock": 1,
+        "brand": "NIVEA",
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33405,
+        "name": "CREMA FACIAL",
+        "cant": 50,
+        "cost": 2302.8,
+        "image": null,
+        "stock": 1,
+        "brand": "NIVEA",
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33404,
+        "name": "SPRAY NIÑOS FPS 50 (CAJA X 6)",
+        "cant": 200,
+        "cost": 2964.89,
+        "image": null,
+        "stock": 1,
+        "brand": "NIVEA",
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33415,
+        "name": "GEL/CREMA OIL CONTROL FPS 50",
+        "cant": 50,
+        "cost": 3042.63,
+        "image": null,
+        "stock": 1,
+        "brand": "NIVEA",
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33417,
+        "name": "SPRAY OIL CONTROL TOQUE SECO FPS 50",
+        "cant": 200,
+        "cost": 3042.63,
+        "image": null,
+        "stock": 1,
+        "brand": "NIVEA",
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33418,
+        "name": "CREMA FACIAL FPS 50 ANTIEDAD (CAJA X 12)",
+        "cant": 50,
+        "cost": 2302.8,
+        "image": null,
+        "stock": 1,
+        "brand": "NIVEA",
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33420,
+        "name": "LOCION TOQUE SECO FPS 50 (CAJA X12)",
+        "cant": 200,
+        "cost": 882.8,
+        "image": null,
+        "stock": 1,
+        "brand": "NIVEA",
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33421,
+        "name": "CREMA FACIAL TOQUE SECO CC MED.",
+        "cantml": 50,
+        "cost": 1686.5,
+        "brand": "NIVEA",
+        "stock": 1,
+        "image": null,
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33422,
+        "name": "CREMA FACIAL TOQUE SECO CC CLARO.",
+        "cantml": 50,
+        "cost": 1686.5,
+        "image": null,
+        "stock": 1,
+        "brand": "NIVEA",
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33423,
+        "name": "CREMA PIGMENT CONTROL FPS 50 (CAJA X12)",
+        "cant": 50,
+        "cost": 1686.5,
+        "image": "",
+        "brand": "NIVEA",
+        "stock": 1,
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33407,
+        "name": "CREMA FACIAL CC CON COLOR FPS 50 (CAJAX12) 50 mi.",
+        "cantml": "50 mi.",
+        "type": "",
+        "cost": 1590.98,
+        "image": null,
+        "brand": "",
+        "stock": 1,
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33412,
+        "name": "LOCION NIÑOS - FPS 50 (CAJA X 6) 150 ml.",
+        "cantml": "150 ml.",
+        "type": "",
+        "cost": 1289.71,
+        "image": null,
+        "brand": "",
+        "stock": 1,
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33405,
+        "name": "CREMA FACIAL oy FPSS 50 mi.",
+        "cantml": "50 mi.",
+        "type": "",
+        "cost": 1562.34,
+        "image": null,
+        "brand": "",
+        "stock": 1,
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33404,
+        "name": "SPRAY NIÑOS FPS 50 (CAJA X 6) 200 ml.",
+        "cantml": "200 ml.",
+        "type": "",
+        "cost": 1388.07,
+        "image": null,
+        "brand": "",
+        "stock": 1,
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33415,
+        "name": "GEL/CREMA OIL CONTROL FPS 50 IT. 50 ml.",
+        "cantml": "50 ml.",
+        "type": "",
+        "cost": 1562.34,
+        "image": null,
+        "brand": "",
+        "stock": 1,
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33417,
+        "name": "SPRAY OIL CONTROL TOQUE SECO FPS 50 | 200 ml.",
+        "cantml": "200 ml.",
+        "type": "",
+        "cost": 1421.68,
+        "image": null,
+        "brand": "",
+        "stock": 1,
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33418,
+        "name": "CREMA FACIAL FPS 50 ANTIEDAD (CAJAX12) 50 mi.",
+        "cantml": "50 mi.",
+        "type": "",
+        "cost": 1590.98,
+        "image": null,
+        "brand": "",
+        "stock": 1,
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33420,
+        "name": "LOCION TOQUE SECO FPS 50 (CAJA X12) 200 ml.",
+        "cantml": "200 ml.",
+        "type": "",
+        "cost": 1425.41,
+        "image": null,
+        "brand": "",
+        "stock": 1,
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33421,
+        "name": "CREMA FACIAL TOQUE SECO CC MED. FPs50| 50 ml.",
+        "cantml": "50 ml.",
+        "type": "",
+        "cost": 1562.34,
+        "image": null,
+        "brand": "",
+        "stock": 1,
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33423,
+        "name": "CREMA FACIAL TOQUE SECO CC CLARO FPs50| 50 ml.",
+        "cantml": "50 ml.",
+        "type": "",
+        "cost": 1562.34,
+        "image": null,
+        "brand": "",
+        "stock": 1,
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 33422,
+        "name": "CREMA PIGMENT CONTROL FPS 50 (CAJA X12)",
+        "cantml": "50 ml.",
+        "type": "",
+        "cost": 1590.98,
+        "image": null,
+        "brand": "",
+        "stock": 1,
+        "categoria": {
+            "nombre": "solares",
+            "id": "proteccion-solar"
+        }
+    },
+    {
+        "id": 10900,
+        "name": "ejemplo",
+        "cant": 50,
+        "cost": 2495.74,
+        "image": null,
+        "stock": 1,
+        "brand": "",
+        "categoria": {
+            "nombre": "joyeria",
+            "id": "joyeria"
+        }
+    },
+    {
+        "id": 10110,
+        "name": "Pañal Babysec Super Premium Xg 68 Unidades",
+        "cant": 68,
+        "size": "XG",
+        "cost": 1496,
+        "image": null,
+        "brand": "Babysec",
+        "stock": 25,
+        "categoria": {
+            "nombre": "maternidad",
+            "id": "maternidad"
+        }
+    },
+    {
+        "id": 10111,
+        "name": "Toallitas Húmedas Wetclean X30 Unidades",
+        "cant": 30,
+        "size": null,
+        "cost": null,
+        "image": null,
+        "brand": "Wetclean",
+        "stock": 63,
+        "categoria": {
+            "nombre": "maternidad",
+            "id": "maternidad"
+        }
+    },
+    {
+        "id": 10112,
+        "name": "Pañal Huggies Natural Care Prematuro 30 Unidades",
+        "cant": 30,
+        "size": null,
+        "cost": 482,
+        "image": null,
+        "brand": "Huggies",
+        "stock": 80,
+        "categoria": {
+            "nombre": "maternidad",
+            "id": "maternidad"
+        }
+    },
+    {
+        "id": 10113,
+        "name": "Toallitas Húmedas Extra Cuidado Johnson & Johnson 96 Unidades",
+        "cant": 96,
+        "size": null,
+        "cost": 401,
+        "image": null,
+        "brand": "Johnson & Johnson",
+        "stock": 43,
+        "categoria": {
+            "nombre": "maternidad",
+            "id": "maternidad"
+        }
+    },
+    {
+        "id": 10114,
+        "name": "Pañales Pampers Premium Care Recien Nacido 36 Unidades",
+        "cant": 36,
+        "size": null,
+        "cost": 695,
+        "image": null,
+        "brand": "Pampers",
+        "stock": 70,
+        "categoria": {
+            "nombre": "maternidad",
+            "id": "maternidad"
+        }
+    },
+    {
+        "id": 10115,
+        "name": "Pañales Huggies Flexi Comfort Talle P 50 Unidades",
+        "cant": 50,
+        "size": "P",
+        "cost": 660,
+        "image": null,
+        "brand": "Huggies",
+        "stock": 58,
+        "categoria": {
+            "nombre": "maternidad",
+            "id": "maternidad"
+        }
+    },
+    {
+        "id": 10116,
+        "name": "Toallitas Húmedas Johnson &johnson Dulces Sueños 48 Unidades",
+        "cant": 48,
+        "size": null,
+        "cost": 225,
+        "image": null,
+        "brand": "Johnson & Johnson",
+        "stock": 112,
+        "categoria": {
+            "nombre": "maternidad",
+            "id": "maternidad"
+        }
+    },
+    {
+        "id": 10117,
+        "name": "Pañales Babysec Ultra Chico 36 Unidades",
+        "cant": 36,
+        "size": "Chico",
+        "cost": 449,
+        "image": null,
+        "brand": "Babysec",
+        "stock": 92,
+        "categoria": {
+            "nombre": "maternidad",
+            "id": "maternidad"
+        }
+    },
+    {
+        "id": 10118,
+        "name": "Pañales Babysec Premium Chico 36 Unidades",
+        "cant": 36,
+        "size": "Chico",
+        "cost": 540,
+        "image": null,
+        "brand": "Babysec",
+        "stock": 78,
+        "categoria": {
+            "nombre": "maternidad",
+            "id": "maternidad"
+        }
+    },
+    {
+        "id": 10119,
+        "name": "Pañales Huggies Supreme Care Unisex Xg 52 Unidades",
+        "cant": 52,
+        "size": "XG",
+        "cost": 992,
+        "image": null,
+        "brand": "Huggies",
+        "stock": 102,
+        "categoria": {
+            "nombre": "maternidad",
+            "id": "maternidad"
+        }
+    },
+    {
+        "id": 423,
+        "name": "Acapú 50g",
+        "cost": "153,00",
+        "cant": "50g",
+        "image": null,
+        "stock": 17,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 415,
+        "name": "Alcahucil 30g",
+        "cost": "96,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 92,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 455,
+        "name": "Alfalfa 30g",
+        "cost": "96,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 80,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 462,
+        "name": "Alhucema 15g",
+        "cost": "96,00",
+        "cant": "15g",
+        "image": null,
+        "stock": 39,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 426,
+        "name": "Anacahuita 25g",
+        "cost": "96,00",
+        "cant": "25g",
+        "image": null,
+        "stock": 65,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 491,
+        "name": "Anis Estrellado 15g",
+        "cost": "102,00",
+        "cant": "15g",
+        "image": null,
+        "stock": 23,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 454,
+        "name": "Anis Grano 15g",
+        "cost": "96,00",
+        "cant": "15g",
+        "image": null,
+        "stock": 52,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 446,
+        "name": "Arazá 30g",
+        "cost": "96,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 44,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 491,
+        "name": "Baño De Descarga 50g",
+        "cost": "112,00",
+        "cant": "50g",
+        "image": null,
+        "stock": 51,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 407,
+        "name": "Barba De Choclo 20g",
+        "cost": "102,00",
+        "cant": "20g",
+        "image": null,
+        "stock": 73,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 439,
+        "name": "Bardana 25g",
+        "cost": "96,00",
+        "cant": "25g",
+        "image": null,
+        "stock": 69,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 483,
+        "name": "Boldo 25g",
+        "cost": "96,00",
+        "cant": "25g",
+        "image": null,
+        "stock": 97,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 484,
+        "name": "Calendula 25g",
+        "cost": "96,00",
+        "cant": "25g",
+        "image": null,
+        "stock": 204,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 485,
+        "name": "Cambará 30g",
+        "cost": "96,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 261,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 486,
+        "name": "Cardo Mariano 50g",
+        "cost": "119,00",
+        "cant": "50g",
+        "image": null,
+        "stock": 449,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 487,
+        "name": "Carqueja 30g",
+        "cost": "96,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 102,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 488,
+        "name": "Cascara Sagrada 30g",
+        "cost": "153,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 153,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 489,
+        "name": "Cedro Santo 40g",
+        "cost": "135,0",
+        "cant": "40g",
+        "image": null,
+        "stock": 48,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 490,
+        "name": "Cedron 25g",
+        "cost": "102,00",
+        "cant": "25g",
+        "image": null,
+        "stock": 157,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 491,
+        "name": "Centaurea 30g",
+        "cost": "109,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 153
+    },
+    {
+        "id": 492,
+        "name": "Centella Asiatica 30g",
+        "cost": "112,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 293,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 493,
+        "name": "Cha Mineiro 30g",
+        "cost": "153,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 498,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 494,
+        "name": "Cola De Caballo 25g",
+        "cost": "96,00",
+        "cant": "25g",
+        "image": null,
+        "stock": 395,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 473,
+        "name": "Cola De Caballo Fina 30g",
+        "cost": 96,
+        "cant": 30,
+        "image": null,
+        "stock": 50,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 474,
+        "name": "Congorosa 30g",
+        "cost": 96,
+        "cant": 30,
+        "image": null,
+        "stock": 27,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 475,
+        "name": "Cule 25g",
+        "cost": 96,
+        "cant": 25,
+        "image": null,
+        "stock": 78,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 476,
+        "name": "Diente De Leon 25g",
+        "cost": 102,
+        "cant": 25,
+        "image": null,
+        "stock": 14
+    },
+    {
+        "id": 477,
+        "name": "Epilobio 40g",
+        "cost": 220,
+        "cant": 40,
+        "image": null,
+        "stock": 62,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 478,
+        "name": "Eucaliptus 30g",
+        "cost": 96,
+        "cant": 30,
+        "image": null,
+        "stock": 39,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 479,
+        "name": "Eufrasia 30g",
+        "cost": 179,
+        "cant": 30,
+        "image": null,
+        "stock": 83,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 480,
+        "name": "Foliculos De Sen 15g",
+        "cost": 96,
+        "cant": 15,
+        "image": null,
+        "stock": 22,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 481,
+        "name": "Ginkgo Biloba 30g",
+        "cost": 102,
+        "cant": 30,
+        "image": null,
+        "stock": 76,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 403,
+        "name": "Graviola 20g",
+        "cost": "$124,00",
+        "cant": "20g",
+        "image": null,
+        "stock": 15,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 499,
+        "name": "Guaco 15g",
+        "cost": "$86,00",
+        "cant": "15g",
+        "image": null,
+        "stock": 20,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 523,
+        "name": "Hinojo 15g",
+        "cost": "$96,00",
+        "cant": "15g",
+        "image": null,
+        "stock": 10,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 435,
+        "name": "Hipericon 50g",
+        "cost": "$200,00",
+        "cant": "50g",
+        "image": null,
+        "stock": 5,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 404,
+        "name": "Hojas De Sen 15g",
+        "cost": "$96,00",
+        "cant": "15g",
+        "image": null,
+        "stock": 18,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 506,
+        "name": "Lapacho 40g",
+        "cost": "$102,00",
+        "cant": "40g",
+        "image": null,
+        "stock": 12,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 459,
+        "name": "Laurel 20g",
+        "cost": "$96,00",
+        "cant": "20g",
+        "image": null,
+        "stock": 14,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 416,
+        "name": "Levante 30g",
+        "cost": "$96,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 16,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 468,
+        "name": "Llanten 30g",
+        "cost": "$96,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 22,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 577,
+        "name": "Malva 30g",
+        "cost": "$96,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 8,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 562,
+        "name": "Manzanilla 25g",
+        "cost": "$102,00",
+        "cant": "25g",
+        "image": null,
+        "stock": 9,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 425,
+        "name": "MARCELA 30G",
+        "cost": "$96,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 13,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 433,
+        "name": "Marrubio 30g",
+        "cost": "$96,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 72,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 434,
+        "name": "Mburucuya 30g",
+        "cost": "$96,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 62,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 435,
+        "name": "Menta 30g",
+        "cost": "$96,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 42,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 436,
+        "name": "Milenrama 40g",
+        "cost": "$168,00",
+        "cant": "40g",
+        "image": null,
+        "stock": 36,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 437,
+        "name": "Moringa 30g",
+        "cost": "$200,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 23,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 438,
+        "name": "Nogal 30g",
+        "cost": "$96,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 54,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 439,
+        "name": "Olivo 25g",
+        "cost": "$96,00",
+        "cant": "25g",
+        "image": null,
+        "stock": 38,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 440,
+        "name": "Ortiga 25g",
+        "cost": "$96,00",
+        "cant": "25g",
+        "image": null,
+        "stock": 42,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 441,
+        "name": "Palo Azul 75g",
+        "cost": "$153,00",
+        "cant": "75g",
+        "image": null,
+        "stock": 18,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 442,
+        "name": "Pasto Limon 30g",
+        "cost": "$153,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 20,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 443,
+        "name": "Pata De Vaca 25g",
+        "cost": "$96,00",
+        "cant": "25g",
+        "image": null,
+        "stock": 33,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 444,
+        "name": "Pie De Leon 35g",
+        "cost": "$200,00",
+        "cant": "35g",
+        "image": null,
+        "stock": 25,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 413,
+        "name": "Poleo 25g",
+        "cost": "$96,00",
+        "cant": "25g",
+        "image": null,
+        "stock": 7,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 431,
+        "name": "Quebra Pedra 30g",
+        "cost": "$156,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 3,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 473,
+        "name": "Quiebralotodo 30g",
+        "cost": "$102,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 5,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 495,
+        "name": "Romero 15g",
+        "cost": "$96,00",
+        "cant": "15g",
+        "image": null,
+        "stock": 8,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 508,
+        "name": "Rosa Mosqueta 70g",
+        "cost": "$279,00",
+        "cant": "70g",
+        "image": null,
+        "stock": 1,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 548,
+        "name": "Sarandi Blanco 30g",
+        "cost": "$96,00",
+        "cant": "30g",
+        "image": null,
+        "stock": 4,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 579,
+        "name": "Sombra De Toro 25g",
+        "cost": "$96,00",
+        "cant": "25g",
+        "image": null,
+        "stock": 2,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 590,
+        "name": "Stevia 25g",
+        "cost": "$102,00",
+        "cant": "25g",
+        "image": null,
+        "stock": 6,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 401,
+        "name": "Suelda Consuelda 40g",
+        "cost": 96,
+        "cant": 40,
+        "image": null,
+        "stock": 50,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 402,
+        "name": "Te Adile 50g",
+        "cost": 164,
+        "cant": 50,
+        "image": null,
+        "stock": 30,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 403,
+        "name": "Te Anguai 50g",
+        "cost": 148,
+        "cant": 50,
+        "image": null,
+        "stock": 20,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 404,
+        "name": "Te Armi 50g",
+        "cost": 91,
+        "cant": 50,
+        "image": null,
+        "stock": 35,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 405,
+        "name": "Te Dayman 50g",
+        "cost": 124,
+        "cant": 50,
+        "image": null,
+        "stock": 40,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 406,
+        "name": "Te Depurativo 50g",
+        "cost": 153,
+        "cant": 50,
+        "image": null,
+        "stock": 25,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 407,
+        "name": "Te Indio 50g",
+        "cost": 112,
+        "cant": 50,
+        "image": null,
+        "stock": 15,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 408,
+        "name": "Te Madreselva 50g",
+        "cost": 164,
+        "cant": 50,
+        "image": null,
+        "stock": 10,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 409,
+        "name": "Te Maragato 50g",
+        "cost": 124,
+        "cant": 50,
+        "image": null,
+        "stock": 8,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 410,
+        "name": "Te Piacue 50g",
+        "cost": 165,
+        "cant": 50,
+        "image": null,
+        "stock": 12,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 411,
+        "name": "Te Rojo 50g",
+        "cost": 109,
+        "cant": 50,
+        "image": null,
+        "stock": 18,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
+    },
+    {
+        "id": 100,
+        "name": "Perifar600",
+        "cant": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://i.ibb.co/r2QyVbc/perifar-600.png",
+        "brand": "Perifar",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Medicamento",
+            "id": "medicamentos"
+        }
+    },
+    {
+        "id": 101,
+        "name": "Perifar 400",
+        "cant": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://i.ibb.co/WxpsFLc/perifar-400.png",
+        "brand": "Perifar",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Medicamento",
+            "id": "medicamentos"
+        }
+    },
+    {
+        "id": 102,
+        "name": "Perifar Grip",
+        "cant": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://i.ibb.co/tqsVyw0/perifar-grip.jpg",
+        "brand": "Perifar",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Medicamento",
+            "id": "medicamentos"
+        }
+    },
+    {
+        "id": 103,
+        "name": "Perifar Flex",
+        "cant": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://i.ibb.co/Hd7Q3mY/perifar-flex.png",
+        "brand": "Perifar",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Medicamento",
+            "id": "medicamentos"
+        }
+    },
+    {
+        "id": 104,
+        "name": "Perifar Migra",
+        "cant": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://i.ibb.co/ZxSY3mz/perifar-migra.png",
+        "brand": "Perifar",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Medicamento",
+            "id": "medicamentos"
+        }
+    },
+    {
+        "id": 105,
+        "name": "Perifar Espasmo",
+        "cant": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://i.ibb.co/jTnCtzd/perifar-espasmo.png",
+        "brand": "Perifar",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Medicamento",
+            "id": "medicamentos"
+        }
+    },
+    {
+        "id": 106,
+        "name": "Perifar Cafeína",
+        "cant": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://i.ibb.co/x6j494C/perifar-cafeina.png",
+        "brand": "Perifar",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Medicamento",
+            "id": "medicamentos"
+        }
+    },
+    {
+        "id": 107,
+        "name": "Perifar Fem",
+        "cant": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://i.ibb.co/Z1FN7yw/perifar-fem.png",
+        "brand": "Perifar",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Medicamento",
+            "id": "medicamentos"
+        }
+    },
+    {
+        "id": 108,
+        "name": "Perifar 600 Cápsula Blanda",
+        "cant": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://i.ibb.co/VHKSYvN/perifar-600-ra.jpg",
+        "brand": "perifar",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Medicamento",
+            "id": "medicamentos"
+        }
+    },
+    {
+        "id": 109,
+        "name": "Perifar 400 Cápsula Blanda",
+        "cant": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://i.ibb.co/pjbvzxD/perifar-400-ra.jpg",
+        "brand": "Perifar",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Medicamento",
+            "id": "medicamentos"
+        }
+    },
+    {
+        "id": 110,
+        "name": "Perifar Pediatrico",
+        "cant": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://i.ibb.co/zGyHK4N/perifar-pediatrico.png",
+        "brand": "Perifar",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Medicamento",
+            "id": "medicamentos"
+        }
+    },
+    {
+        "id": 111,
+        "name": "Perifar Flex 600",
+        "cant": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://i.ibb.co/h1mZ3Ld/perifar-flex-600.jpg",
+        "brand": "Perifar",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Medicamento",
+            "id": "medicamentos"
+        }
+    },
+    {
+        "id": 112,
+        "name": "Perifar 200",
+        "cant": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://i.ibb.co/y4qZcMW/perifar-200.jpg",
+        "brand": "Perifar",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Medicamento",
+            "id": "medicamentos"
+        }
+    },
+    {
+        "id": 113,
+        "name": "Perifar Crema",
+        "cant": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://i.ibb.co/7KczRS5/Perifar-crema.jpg",
+        "brand": "Perifar",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Medicamento",
+            "id": "medicamentos"
+        }
+    },
+    {
+        "id": 114,
+        "name": "Perifar Infantil",
+        "cant": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://i.ibb.co/1Z2Qt4R/perifar-Infantil.jpg",
+        "brand": "",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Medicamento",
+            "id": "medicamentos"
+        }
+    },
+    {
+        "id": 115,
+        "name": "Perifar con Codeína",
+        "cant": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://i.ibb.co/x1dGcr9/perifar-codeina.jpg",
+        "brand": "Perifar",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Medicamento",
+            "id": "medicamentos"
+        }
+    },
+    {
+        "id": 116,
+        "name": "Perifar Grip 200",
+        "cant": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://i.ibb.co/XZtPv4r/perifar-grip.png",
+        "brand": "Perifar",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Medicamento",
+            "id": "medicamentos"
+        }
+    },
+    {
+        "id": 117,
+        "name": "Perifar Grip Caliente",
+        "cant": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://i.ibb.co/Ny07YJK/perifar-grip-caliente.jpg",
+        "brand": "Perifar",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Medicamento",
+            "id": "medicamentos"
+        }
+    },
+    {
+        "id": 118,
+        "name": "Perifar Descongestivo",
+        "cant": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://i.ibb.co/t4KjgyT/perifar-descongestivo.png",
+        "brand": "Perifar",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Medicamento",
+            "id": "medicamentos"
+        }
+    },
+    {
+        "id": 119,
+        "name": "Perifar Plus",
+        "cant": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://i.ibb.co/d6fzy1g/perifar-plus.png",
+        "brand": "Perifar",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Medicamento",
+            "id": "medicamentos"
+        }
+    },
+    {
+        "id": 31640,
+        "name": "NIVEA CREMOSO 125gr",
+        "cantml": 125,
+        "type": "",
+        "cost": 145.02,
+        "image": null,
+        "brand": "NIVEA",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Cuidado Personal",
+            "id": "cuidado-personal"
+        }
+    },
+    {
+        "id": 31641,
+        "name": "NIVEA ANTIBACTERIAL 125gr",
+        "cantml": 125,
+        "type": "",
+        "cost": 138.56,
+        "image": null,
+        "brand": "NIVEA",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Cuidado Personal",
+            "id": "cuidado-personal"
+        }
+    },
+    {
+        "id": 31642,
+        "name": "NIVEA AVENA 125gr",
+        "cantml": 125,
+        "type": "",
+        "cost": 145.09,
+        "image": null,
+        "brand": "NIVEA",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Cuidado Personal",
+            "id": "cuidado-personal"
+        }
+    },
+    {
+        "id": 31643,
+        "name": "NIVEA LIQUIDO HIGIENE INTIMA",
+        "cantml": 250,
+        "type": "",
+        "cost": 399.99,
+        "image": null,
+        "brand": "NIVEA",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Cuidado Personal",
+            "id": "cuidado-personal"
+        }
+    },
+    {
+        "id": 31632,
+        "name": "GEL DE DUCHA NIVEA VITALITY FRESH",
+        "cantml": 250,
+        "type": "",
+        "cost": 158.87,
+        "image": null,
+        "brand": "NIVEA",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Cuidado Personal",
+            "id": "cuidado-personal"
+        }
+    },
+    {
+        "id": 31644,
+        "name": "GEL DE DUCHA NIVEA WATERLILY",
+        "cantml": 250,
+        "type": "",
+        "cost": 158.87,
+        "image": null,
+        "brand": "NIVEA",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Cuidado Personal",
+            "id": "cuidado-personal"
+        }
+    },
+    {
+        "id": 31645,
+        "name": "GEL DE DUCHA NIVEA FRANGIPANI",
+        "cantml": 250,
+        "type": "",
+        "cost": 158.87,
+        "image": null,
+        "brand": "NIVEA",
+        "stock": 1,
+        "categoria": {
+            "nombre": "Cuidado Personal",
+            "id": "cuidado-personal"
+        }
+    }
+]

@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "cors": "^2.8.5",
-    "fs": "^0.0.1-security",
-    "nodejs": "^0.0.0",
-    "xpress": "^2.4.6"
-  }
-}
