@@ -1546,7 +1546,11 @@
         "cost": "109,00",
         "cant": "30g",
         "image": null,
-        "stock": 153
+        "stock": 153, 
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
     },
     {
         "id": 492,
@@ -1626,7 +1630,11 @@
         "cost": 102,
         "cant": 25,
         "image": null,
-        "stock": 14
+        "stock": 14,
+        "categoria": {
+            "nombre": "naturales",
+            "id": "productos-naturales"
+        }
     },
     {
         "id": 477,
@@ -2389,12 +2397,12 @@
     {
         "id": 113,
         "name": "Perifar Crema",
-        "cant": "",
+        "cant": 8,
         "type": "",
-        "cost": 0,
+        "cost": 140,
         "image": "https://i.ibb.co/7KczRS5/Perifar-crema.jpg",
         "brand": "Perifar",
-        "stock": 1,
+        "stock": 10,
         "categoria": {
             "nombre": "Medicamento",
             "id": "medicamentos"

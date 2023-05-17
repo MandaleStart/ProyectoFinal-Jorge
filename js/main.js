@@ -24,11 +24,13 @@ var currentPage = window.location.pathname;
 function loadItems(productos, precioMinimo, precioMaximo, categoria) {
   let contitem = document.getElementById("prod-c");
   contitem.innerHTML = "";
-  console.log(precioMinimo, precioMaximo)
+  //console.log(precioMinimo, precioMaximo)
 
   for (let producto of productos) {
     let renderProducto = producto.image ?? "https://i.ibb.co/MpG69V7/nofoto.png";
-    console.log(producto.categoria.id)
+    let i = 0
+    i = i+1
+    console.log(i , producto.categoria.id)
     if ((producto.stock == 0) && (producto.cost >= precioMinimo && producto.cost <= precioMaximo) &&
     (!categoria || producto.categoria.id === categoria) ) {
       contitem.innerHTML += `<div class="col-md-4 mt-3" id="${producto.id}">
@@ -178,12 +180,15 @@ fetch(URL_PROD, {
 })
   .then(res => res.json())
   .then(data => {
-    console.log(data)
+    //console.log(data)
     productos = data
     const categoria = window.location.pathname.split("/").pop().replace(".html", "");
-    console.log(categoria)
+    //console.log(categoria)
 
     loadItems(productos, precioMinimo, precioMaximo, categoria)
-    //Afilters?.addEventListener("click", loadItems(productos, precioMinimo, precioMaximo, categoria))
-
+    Afilters.addEventListener("click", loadItems(productos, precioMinimo, precioMaximo, categoria))
+    Cfilters.addEventListener("click", ()=>{
+      precioMaximo = 0
+      precioMinimo = Number.MAX_VALUE
+    loadItems(productos, precioMinimo, precioMaximo, categoria)})
   });
